@@ -4,9 +4,7 @@ Easily add a stationary footer image when you reach the bottom of your UIScrollV
 
 ### Example
 
-Here's a gif what:
-
-![image](https://raw.github.com/chrisledet/CLTableWithFooterViewController/master/Example.gif)
+Here's a [video demo](http://cl.ly/2Q1T083Z3w3I)
 
 Also, I included a example app. Just open the `CLTableWithFooterViewController.xcodeproj` Xcode project, build, and run.
 
