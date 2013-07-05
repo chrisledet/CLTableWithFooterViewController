@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8384087A1786929D00A966DF /* Footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 838408781786929D00A966DF /* Footer.png */; };
+		8384087B1786929D00A966DF /* Footer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838408791786929D00A966DF /* Footer@2x.png */; };
+		83E533B717868BC400D4BA92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E533B617868BC400D4BA92 /* UIKit.framework */; };
+		83E533B917868BC400D4BA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E533B817868BC400D4BA92 /* Foundation.framework */; };
+		83E533BB17868BC400D4BA92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E533BA17868BC400D4BA92 /* CoreGraphics.framework */; };
+		83E533E417868C3B00D4BA92 /* CLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E533E117868C3B00D4BA92 /* CLAppDelegate.m */; };
+		83E533E517868C3B00D4BA92 /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E533E317868C3B00D4BA92 /* CLViewController.m */; };
+		83E533EA17868C5900D4BA92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E533E717868C5900D4BA92 /* Default-568h@2x.png */; };
+		83E533EB17868C5900D4BA92 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E533E817868C5900D4BA92 /* Default.png */; };
+		83E533EC17868C5900D4BA92 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E533E917868C5900D4BA92 /* Default@2x.png */; };
+		83E533F117868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E533EE17868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist */; };
+		83E533F217868C6400D4BA92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E533F017868C6400D4BA92 /* main.m */; };
+		83E533F617868D3D00D4BA92 /* CLTableWithFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E533F517868D3D00D4BA92 /* CLTableWithFooterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		838408781786929D00A966DF /* Footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Footer.png; sourceTree = "<group>"; };
+		838408791786929D00A966DF /* Footer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Footer@2x.png"; sourceTree = "<group>"; };
+		83E533B317868BC400D4BA92 /* CLTableWithFooterViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLTableWithFooterViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E533B617868BC400D4BA92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83E533B817868BC400D4BA92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83E533BA17868BC400D4BA92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83E533E017868C3B00D4BA92 /* CLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAppDelegate.h; sourceTree = "<group>"; };
+		83E533E117868C3B00D4BA92 /* CLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAppDelegate.m; sourceTree = "<group>"; };
+		83E533E217868C3B00D4BA92 /* CLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLViewController.h; sourceTree = "<group>"; };
+		83E533E317868C3B00D4BA92 /* CLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLViewController.m; sourceTree = "<group>"; };
+		83E533E717868C5900D4BA92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83E533E817868C5900D4BA92 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83E533E917868C5900D4BA92 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83E533EE17868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CLTableWithFooterViewController-Info.plist"; sourceTree = "<group>"; };
+		83E533EF17868C6400D4BA92 /* CLTableWithFooterViewController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLTableWithFooterViewController-Prefix.pch"; sourceTree = "<group>"; };
+		83E533F017868C6400D4BA92 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83E533F417868D3D00D4BA92 /* CLTableWithFooterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTableWithFooterViewController.h; sourceTree = "<group>"; };
+		83E533F517868D3D00D4BA92 /* CLTableWithFooterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTableWithFooterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83E533B017868BC400D4BA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E533B717868BC400D4BA92 /* UIKit.framework in Frameworks */,
+				83E533B917868BC400D4BA92 /* Foundation.framework in Frameworks */,
+				83E533BB17868BC400D4BA92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83E533AA17868BC400D4BA92 = {
+			isa = PBXGroup;
+			children = (
+				83E533F317868D3D00D4BA92 /* Src */,
+				83E533BC17868BC400D4BA92 /* Example */,
+				83E533B517868BC400D4BA92 /* Frameworks */,
+				83E533B417868BC400D4BA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83E533B417868BC400D4BA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83E533B317868BC400D4BA92 /* CLTableWithFooterViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83E533B517868BC400D4BA92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E533B617868BC400D4BA92 /* UIKit.framework */,
+				83E533B817868BC400D4BA92 /* Foundation.framework */,
+				83E533BA17868BC400D4BA92 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83E533BC17868BC400D4BA92 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				83E533E617868C5900D4BA92 /* Assets */,
+				83E533DF17868C3B00D4BA92 /* Classes */,
+				83E533ED17868C6400D4BA92 /* Other Sources */,
+			);
+			name = Example;
+			path = CLTableWithFooterViewController;
+			sourceTree = "<group>";
+		};
+		83E533DF17868C3B00D4BA92 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83E533E017868C3B00D4BA92 /* CLAppDelegate.h */,
+				83E533E117868C3B00D4BA92 /* CLAppDelegate.m */,
+				83E533E217868C3B00D4BA92 /* CLViewController.h */,
+				83E533E317868C3B00D4BA92 /* CLViewController.m */,
+			);
+			name = Classes;
+			path = Example/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		83E533E617868C5900D4BA92 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83E533E717868C5900D4BA92 /* Default-568h@2x.png */,
+				83E533E817868C5900D4BA92 /* Default.png */,
+				83E533E917868C5900D4BA92 /* Default@2x.png */,
+				838408781786929D00A966DF /* Footer.png */,
+				838408791786929D00A966DF /* Footer@2x.png */,
+			);
+			name = Assets;
+			path = Example/Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		83E533ED17868C6400D4BA92 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				83E533EE17868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist */,
+				83E533EF17868C6400D4BA92 /* CLTableWithFooterViewController-Prefix.pch */,
+				83E533F017868C6400D4BA92 /* main.m */,
+			);
+			name = "Other Sources";
+			path = "Example/Other Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		83E533F317868D3D00D4BA92 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				83E533F417868D3D00D4BA92 /* CLTableWithFooterViewController.h */,
+				83E533F517868D3D00D4BA92 /* CLTableWithFooterViewController.m */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83E533B217868BC400D4BA92 /* CLTableWithFooterViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E533D617868BC400D4BA92 /* Build configuration list for PBXNativeTarget "CLTableWithFooterViewController" */;
+			buildPhases = (
+				83E533AF17868BC400D4BA92 /* Sources */,
+				83E533B017868BC400D4BA92 /* Frameworks */,
+				83E533B117868BC400D4BA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLTableWithFooterViewController;
+			productName = CLTableWithFooterViewController;
+			productReference = 83E533B317868BC400D4BA92 /* CLTableWithFooterViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83E533AB17868BC400D4BA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chris Ledet";
+			};
+			buildConfigurationList = 83E533AE17868BC400D4BA92 /* Build configuration list for PBXProject "CLTableWithFooterViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83E533AA17868BC400D4BA92;
+			productRefGroup = 83E533B417868BC400D4BA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83E533B217868BC400D4BA92 /* CLTableWithFooterViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83E533B117868BC400D4BA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E533EA17868C5900D4BA92 /* Default-568h@2x.png in Resources */,
+				83E533EB17868C5900D4BA92 /* Default.png in Resources */,
+				83E533EC17868C5900D4BA92 /* Default@2x.png in Resources */,
+				83E533F117868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist in Resources */,
+				8384087A1786929D00A966DF /* Footer.png in Resources */,
+				8384087B1786929D00A966DF /* Footer@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83E533AF17868BC400D4BA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E533E417868C3B00D4BA92 /* CLAppDelegate.m in Sources */,
+				83E533E517868C3B00D4BA92 /* CLViewController.m in Sources */,
+				83E533F217868C6400D4BA92 /* main.m in Sources */,
+				83E533F617868D3D00D4BA92 /* CLTableWithFooterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83E533D417868BC400D4BA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83E533D517868BC400D4BA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E533D717868BC400D4BA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CLTableWithFooterViewController-Prefix.pch";
+				INFOPLIST_FILE = "Example/Other Sources/CLTableWithFooterViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83E533D817868BC400D4BA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CLTableWithFooterViewController-Prefix.pch";
+				INFOPLIST_FILE = "Example/Other Sources/CLTableWithFooterViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83E533AE17868BC400D4BA92 /* Build configuration list for PBXProject "CLTableWithFooterViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E533D417868BC400D4BA92 /* Debug */,
+				83E533D517868BC400D4BA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E533D617868BC400D4BA92 /* Build configuration list for PBXNativeTarget "CLTableWithFooterViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E533D717868BC400D4BA92 /* Debug */,
+				83E533D817868BC400D4BA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83E533AB17868BC400D4BA92 /* Project object */;
+}
