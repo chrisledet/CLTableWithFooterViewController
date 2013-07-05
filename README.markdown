@@ -12,7 +12,7 @@ Also, I included a example app. Just open the `CLTableWithFooterViewController.x
 
 ### Installation
 
-Simply add all the files in the `Src` directory to your project.
+Simply add all the files in the [Src](https://github.com/chrisledet/CLTableWithFooterViewController/tree/master/Src) directory to your project.
 
 ### License
 
