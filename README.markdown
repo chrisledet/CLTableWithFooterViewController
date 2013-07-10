@@ -31,7 +31,7 @@ Here's an example
 
 ![image](https://raw.github.com/chrisledet/CLTableWithFooterViewController/master/Example.gif)
 
-Also, I included am example app. Just open the Xcode project, build, and run.
+Also, I included an example app. Just open the Xcode project, build, and run.
 
 ### Installation
 
