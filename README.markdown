@@ -2,7 +2,7 @@
 
 Easily add a stationary footer image when you reach the bottom of your UIScrollView or UITableView. It will remain put when the content bounces up and hide when scrolling up.
 
-## Installation ?
+## Installation
 
 Simply add all the files in the [Src](https://github.com/chrisledet/CLTableWithFooterViewController/tree/master/Src) directory to your project.
 
