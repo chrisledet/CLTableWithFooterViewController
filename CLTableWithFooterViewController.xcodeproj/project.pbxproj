@@ -17,7 +17,6 @@
 		83E533EA17868C5900D4BA92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E533E717868C5900D4BA92 /* Default-568h@2x.png */; };
 		83E533EB17868C5900D4BA92 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E533E817868C5900D4BA92 /* Default.png */; };
 		83E533EC17868C5900D4BA92 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E533E917868C5900D4BA92 /* Default@2x.png */; };
-		83E533F117868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83E533EE17868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist */; };
 		83E533F217868C6400D4BA92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E533F017868C6400D4BA92 /* main.m */; };
 		83E533F617868D3D00D4BA92 /* CLTableWithFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E533F517868D3D00D4BA92 /* CLTableWithFooterViewController.m */; };
 /* End PBXBuildFile section */
@@ -196,7 +195,6 @@
 				83E533EA17868C5900D4BA92 /* Default-568h@2x.png in Resources */,
 				83E533EB17868C5900D4BA92 /* Default.png in Resources */,
 				83E533EC17868C5900D4BA92 /* Default@2x.png in Resources */,
-				83E533F117868C6400D4BA92 /* CLTableWithFooterViewController-Info.plist in Resources */,
 				8384087A1786929D00A966DF /* Footer.png in Resources */,
 				8384087B1786929D00A966DF /* Footer@2x.png in Resources */,
 			);
