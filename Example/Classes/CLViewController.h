@@ -8,6 +8,6 @@
 
 #import "CLTableWithFooterViewController.h"
 
-@interface CLViewController : CLTableWithFooterViewController <UITableViewDataSource>
+@interface CLViewController : CLTableWithFooterViewController
 
 @end
